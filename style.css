@@ -34,4 +34,28 @@ body {
     top: 17px;
     left: 15px;
 }
+
+.profileImgDiv img {
+    width: 30px;
+    border-radius: 50%;
+}
 /* end navbar */
+
+/* cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    width: 37%;
+}
+
+.card img {
+    width: 100%;
+    height: 450px;
+}
+/* end cards */
